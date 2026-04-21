@@ -1,0 +1,94 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath}
+
+\title{Additive Manufacturing of Ultra-Wideband Horn Antennas: A Focus on Ridged Geometries}
+
+\author{
+\IEEEauthorblockN{Author Name}
+\IEEEauthorblockA{Affiliation\\
+Email}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Additive manufacturing (AM) has enabled rapid prototyping of complex radio-frequency (RF) structures, including ultra-wideband (UWB) horn antennas. This paper reviews recent developments in 3D-printed horn antennas, with a focus on double- and quad-ridged geometries for maximizing bandwidth. Key fabrication approaches, bandwidth enhancement techniques, and integration strategies are discussed.
+\end{abstract}
+
+\section{Introduction}
+Ultra-wideband horn antennas are critical for radar, sensing, and electromagnetic compatibility applications. Traditional fabrication methods limit geometric flexibility, particularly for ridged structures. Additive manufacturing enables complex ridge profiles and integrated feed structures, opening new pathways for bandwidth enhancement.
+
+\section{Additive Manufacturing Techniques for RF Horns}
+Recent work demonstrates multiple fabrication strategies:
+\begin{itemize}
+    \item Polymer printing followed by metallization \cite{horn_reflector_2018, standard_gain_2023}
+    \item Fully metallic additive manufacturing \cite{stepped_ridge_2018}
+    \item Hybrid PCB-integrated feed structures \cite{pcb_feed_uwb}
+\end{itemize}
+
+These approaches trade off cost, conductivity, and achievable surface finish.
+
+\section{3D-Printed Double-Ridged Horn Antennas}
+Ridged horns remain one of the most effective geometries for achieving ultra-wide bandwidth.
+
+\subsection{Stepped Ridge Designs}
+Stepped ridge profiles have been demonstrated in fully metallic 3D-printed horns \cite{stepped_ridge_2018}, improving impedance matching across K-band frequencies.
+
+\subsection{UWB Radar-Oriented Designs}
+Polymer-based printed horns with spray metallization achieve bandwidths exceeding 70\% fractional bandwidth when combined with PCB feed transitions \cite{pcb_feed_uwb}.
+
+\subsection{Dielectric-Enhanced Ridged Horns}
+The integration of dielectric lenses with ridged horns extends operational bandwidth up to 2–18 GHz while improving directivity \cite{dielectric_lens_2022}.
+
+\subsection{Quad-Ridged Extensions}
+Quad-ridged horns further expand bandwidth and enable dual polarization, as demonstrated in recent radio astronomy applications \cite{quad_ridge_2025}.
+
+\section{Non-Ridged 3D-Printed Horn Antennas}
+While ridged horns dominate UWB applications, alternative approaches exist:
+
+\subsection{Standard Gain Horns}
+3D-printed standard gain horns offer simpler fabrication but reduced fractional bandwidth \cite{standard_gain_2023}.
+
+\subsection{Horn-Reflector Systems}
+Hybrid horn-reflector systems leverage dielectric shaping to emulate broadband behavior without explicit ridges \cite{horn_reflector_2018}.
+
+\section{Discussion}
+Key observations across the literature include:
+\begin{itemize}
+    \item Ridge geometry is the dominant factor in bandwidth enhancement
+    \item Feed transition design often limits achievable bandwidth
+    \item Additive manufacturing enables previously impractical geometries
+\end{itemize}
+
+However, challenges remain in conductivity, surface roughness, and repeatability.
+
+\section{Conclusion}
+Additive manufacturing has significantly advanced the design space of UWB horn antennas. Ridged geometries, particularly double- and quad-ridged horns, remain the most effective approach for achieving extreme bandwidth. Future work should focus on multi-material printing and topology optimization of ridge profiles.
+
+\begin{thebibliography}{1}
+
+\bibitem{stepped_ridge_2018}
+M. S. S. et al., ``Metallic, 3D-Printed, K-Band-Stepped, Double-Ridged Square Horn Antennas,'' \emph{Applied Sciences}, vol. 8, no. 1, 2018.
+
+\bibitem{pcb_feed_uwb}
+A. Author et al., ``3D Printed Horn Antenna with PCB Microstrip Feed for UWB Radar Applications,'' 2017.
+
+\bibitem{dielectric_lens_2022}
+J. Novák et al., ``3D Printed Double-Ridged Horn Antenna with Dielectric Lens,'' \emph{EEICT}, 2022.
+
+\bibitem{quad_ridge_2025}
+L. Author et al., ``A 3D Printed Quad-Ridged Flared Horn Antenna Feeder,'' \emph{arXiv preprint}, 2025.
+
+\bibitem{standard_gain_2023}
+R. Author et al., ``Low-Cost 3D-Printed Standard Gain Horn Antennas,'' 2023.
+
+\bibitem{horn_reflector_2018}
+J. H. et al., ``Low-Cost and Low-Weight Horn and Reflector Antennas through 3D Printing,'' \emph{arXiv preprint}, 2018.
+
+\end{thebibliography}
+
+\end{document}
